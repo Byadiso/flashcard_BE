@@ -20,10 +20,10 @@ type Feed {
 
 type Link {
   createdAt: DateTime!
-  description: String!
+  question: String!
   id: Int!
   postedBy: User
-  url: String!
+  answer: String!
   voters: [User!]!
 }
 
